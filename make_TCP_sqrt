@@ -1,0 +1,13 @@
+# _*_ Makefile _*_
+
+#target: dependencies
+#	action
+
+all: 
+
+	gcc TCPClient_sqrt_HW1.c -o TCPClient_sqrt_HW1
+	gcc TCPServer_sqrt_HW1.c -o TCPServer_sqrt_HW1 -lm 
+	
+clean:
+	rm TCPClient_sqrt_HW1
+	rm TCPServer_sqrt_HW1
